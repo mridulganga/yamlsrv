@@ -1,48 +1,22 @@
-topics:
-  - name: Service Definition and Goals
-    children:
-      - name: Name, Description and Goals
-      - name: Versioning
-      - name: Packaging
-      - name: Tech Stack
-      - name: Service Architecture
-      - name: Deployment Architecture
-      - name: Testing Architecture
-      - name: Requirements and Use Cases
-      - name: SLA
-      - name: FAQ
-  - name: Repository Configurations
-    children:
-      - name: Repos Creation and visibility
-      - name: Repos Rules
-      - name: Code Review Rules
-      - name: Readme Information
-  - name: Devops Setup
-    children:
-      - name: CI CD Stages
-      - name: Tests
-      - name: Build and Packaging
-      - name: Deployment
-  - name: Monitoring
-    children:
-      - name: Logs
-      - name: Metrics
-      - name: Alarms
-      - name: Dashboards
-      - name: Runbooks
-  - name: Data
-    children:
-      - name: Classification
-      - name: Models
-      - name: Encryption
-      - name: Storage Compliance
-      - name: Database Config
-      - name: Data Backup
-  - name: Recovery
-    children:
-      - name: Service Recovery
-      - name: Data Recovery
 fruits:
     - apple
     - name: mango
       season: spring
+animals:
+  - cat
+  - type: dog
+    breeds:
+      - labrador
+      - pug
+      - bulldog
+  - fox
+groups:
+  - name: admin
+    users:
+      - name: mridul
+        email: mridul@mridul
+        roles:
+          - read_users
+          - write_users
+      - name: steve
+        email: steve@minecraft
